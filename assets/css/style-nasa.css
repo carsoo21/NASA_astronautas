@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
+.logo-nasa{
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+}
+.card-nasa{
+  background-image: url(../imagen/starfield-banner.jpg);
+  background-repeat: repeat-x;
+  background-color: black;
+  /*background: radial-gradient(ellipse at bottom, #1b2735 10%, #0a0c12 70%);*/
+  border-radius: .85rem !important;  
+  font-family: 'Oxanium', cursive;
+}
+.card-nasa h1,
+.card-nasa h2,
+.card-nasa h3,
+.card-nasa h4,
+.card-nasa h5,
+.card-nasa h6,
+.card-nasa p,
+.card-nasa label{
+  color: #fff;
+}
+.form-control{
+  border: 6px solid rgba(255, 255, 255, .25) !important;  
+  border-radius: 0 !important;
+}

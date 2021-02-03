@@ -1,0 +1,75 @@
+@media only screen and (min-width: 768px){
+  .contenedor-grid{
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      padding-left: -10px;
+      padding-right: -10px;
+  }
+  .contenedor-grid::after{
+      content: '';
+      display: block;
+      clear: both;
+  }
+  [class*="columnas"]{
+      float: left;
+  }
+  .columnas1-8{
+      width: 12.5%;
+  }
+  .columnas2-8{
+      width: 25%;
+  }
+  .columnas3-8{
+      width: 37.5%;
+  }
+  .columnas4-8{
+      width: 50%;
+  }
+  .columnas5-8{
+      width: 62.5%;
+  }
+  .columnas6-8{
+      width: 75%;
+  }
+  .columnas7-8{
+      width: 87.5%;
+  }
+  .columnas8-8{
+      width: 100%;
+  }
+}
+
+.form-table tr{
+  border-bottom: 1px solid #dfdfdf;    
+}
+.form-table tr th{
+  width: 30%;
+  color: #797979;
+  
+}
+.form-table tr th h4{font-weight: 700;}
+.form-table tr th p{font-weight: 400; font-style: italic;}
+.form-table tr td{
+  width: 80%;
+  color: #797979;
+}
+.form-table tr tr:last-child{
+    border-bottom: 0px solid #dfdfdf;
+}
+input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea{
+    width: 400px;
+    padding: 5px 10px;
+}
+  
+
+.logo-nasa{
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+}
+.mb-5{
+  margin-bottom: 3rem !important;
+}
